@@ -11,7 +11,7 @@ function Video({image,title,channel,views,timestamp,channelImage}) {
              alt={channel}
              src={channelImage} 
             />
-            <div className="video_text">
+            <div className="videoCard_text">
                 <h4>{title}</h4>
                 <p>{channel}</p>
                 <p>
